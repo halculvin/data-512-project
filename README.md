@@ -1,13 +1,11 @@
-# Human Centered Data Science - Homework_4
+# Human Centered Data Science - Project Part 1 - Common Analysis
 
 #About the Project
-The repository contains the code and the data to reproduce the results for the analysis of the COVID-19 cases at Frankilin in
-Ohio in the United States of America. As the part of this project I wanted to understand the effect of mask mandate that was 
-put in place at Franklin in Ohio on the infection rates in the state between February 1, 2020 through October 1, 2021. Also I tried to understand the compliance for the mask mandate and come up with statitsical model for time series analysis.
-The data analysis for this project includes data acquisition, data processing and generating the time series analysis for the number of infections and the number of days. This homework was the part of Human Centered Data Science at the University
+The repository contains the code and the data to reproduce the results for the analysis of mask mandate policy during COVID-19 pandemic in the Snohomish County of Washington State, United States of America between February 1, 2020 through to October 1, 2021.
+The data analysis for this project includes data acquisition, data processing and generating the time series analysis for the number of infections and the number of days. This project was part of Human Centered Data Science at the University
 of Washington - Seattle for Autumn 2022. The project contains all the details to reproduce this analysis independently on any machine without the use of any specific software package.
 
-## API Documentation For Data Download
+## Data Source
 The data acquisition was done acquired from the three different data sources. The details for the data source is present below:
 
 1. [John Hopkins University COVID-19 data](https://www.kaggle.com/datasets/antgoldbloom/covid19-data-from-john-hopkins-university)
@@ -21,7 +19,7 @@ The directory structure for the repository has been shown below in the form of a
 ```
 
 .
-├── raw_data
+├── data
 │   ├── mask_use_by_county.csv
 │   ├── RAW_us_confirmed_cases.csv
 │   ├── US_State_and_Territorial_Public_Mask_Mandates_From_April_10__2020_through_August_15__2021_by_County_by_Day.csv
@@ -33,7 +31,7 @@ The directory structure for the repository has been shown below in the form of a
 │   └── qqplot_ols_and_ARIMA.png
 │ 
 ├── src
-│   └── Common_Analysis.ipynb
+│   └── data-512-project-part-1.ipynb
 │ 
 ├── Analysis_results_explanation
 │   └── Visualization_Explanation.pdf
