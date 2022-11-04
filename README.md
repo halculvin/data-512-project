@@ -1,6 +1,6 @@
 # Human Centered Data Science - Project Part 1 - Common Analysis
 
-#About the Project
+## About the Project
 The repository contains the code and the data to reproduce the results for the analysis of mask mandate policy during COVID-19 pandemic in the Snohomish County of Washington State, United States of America between February 1, 2020 through to October 1, 2021.
 The data analysis for this project includes data acquisition, data processing and generating the time series analysis for the number of infections and the number of days. This project was part of Human Centered Data Science at the University
 of Washington - Seattle for Autumn 2022. The project contains all the details to reproduce this analysis independently on any machine without the use of any specific software package.
@@ -25,17 +25,14 @@ The directory structure for the repository has been shown below in the form of a
 │   ├── US_State_and_Territorial_Public_Mask_Mandates_From_April_10__2020_through_August_15__2021_by_County_by_Day.csv
 │ 
 ├── plots
-│   ├── autocorrelation.png
-│   ├── counterfactual.png
-│   └── partial_autocorrelation.png
-│   └── qqplot_ols_and_ARIMA.png
+│   └── arima_output.png
 │ 
 ├── src
 │   └── data-512-project-part-1.ipynb
 │ 
-├── Analysis_results_explanation
+├── docs
 │   └── Visualization_Explanation.pdf
-│   └── Reflection Statement on Collaboration.pdf
+│   └── Reflections.pdf
 │ 
 ├── README.md
 └── LICENSE
